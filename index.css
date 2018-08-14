@@ -1,0 +1,240 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Droid Serif";
+}
+.list{
+	width: 100%;
+	position: relative;
+}
+.header{
+	width: 100%;
+	height: 350px;
+}
+.background{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.background img{
+	
+	width: 100%;
+	height: 350px;
+}
+.info{
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+.info .top{
+	padding-top: 50px;
+}
+.name b{
+	font-size: 18px;
+    color: #fff;
+}
+.menu ul{
+	list-style-type: none;
+	text-align: right;
+	overflow: hidden;
+}
+.menu ul li{
+	float: right;
+	display: inline-block;
+	width: 16.6%;
+}
+	
+#icon{
+	display: none;
+}
+.menu ul li a{
+	color: #fff;
+	font-size: 14px;
+}
+.menu ul li a:hover{
+	text-decoration: none;
+}
+.title{
+	margin-top: 100px;
+	text-align: center;
+}
+.title span{
+	color: #fff;
+	font-size: 48px;
+}
+.title hr{
+	margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 2px solid #fff;
+}
+/*content*/
+.content{
+	clear: both;
+	margin-top: 100px;
+	width: 100%;
+	height: auto;
+}
+
+.menus{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+}
+.group{
+	text-align: center;
+	color: #ccc;
+}
+.is-checked{
+	color: #cc9966!important;
+}
+.group button{
+	background-color: #fff;
+    border: none;
+    font-style: italic;
+
+}
+.group a{
+	color: #ccc;
+}
+.group a:hover{
+	text-decoration: none;
+	color: #cc9966;
+}
+.group a:focus{
+	text-decoration: none;
+	color: #cc9966;
+
+}
+
+.item{
+	position: relative;
+ 	float: left;
+	margin-bottom: 30px;
+	width: 270px;
+	height: auto;
+	/*padding-right: 10px;*/
+}
+/*.item a{
+	width: 270px;
+	height:270px;
+}*/
+
+.item img{
+	width: 100%;
+	height: 270px;
+	margin-bottom: 25px;
+	display: block;
+}
+.buy{
+	width: 100%;
+	height: 270px;
+	 position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #fff;
+  border: 1px solid #cc9966;
+}
+
+.buy:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text a{
+	color: #cc9966;
+}
+.text a:hover{
+	text-decoration: none;
+}
+.more button{
+	background-color: #c3917d;
+    border: none;
+    color: #fff;
+    padding: 10px 14px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+/*footer*/
+.footer{
+	height: 510px;
+	width: 100%;
+	background-color:#222222;
+	text-align: center;
+	position: relative;
+}
+.info_restaurent{
+	width: 100%;
+	height: 340px;
+}
+.info_restaurent img{
+	margin-top: 60px;
+	height: 39px;
+	width: 30px;
+	margin-bottom: 15px;
+}
+.pra{
+	color: #669999;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 35px;
+}
+.pra p{
+	width: 80%;
+}
+.info_restaurent span{
+	color: #fff;
+	font-size: 14px;
+}
+.info_restaurent ul{
+	list-style-type: none;
+}
+.info_restaurent ul li{
+	float: left;
+	width: 33%;
+    color: #cc9966;
+}
+.social{
+	width: 100%;
+	height: 168px;
+	background-color: #1f1f1f;
+}
+.social ul{
+	list-style-type: none;
+	padding-left: 65px;
+}
+.social ul li{
+	float: left;
+	width: 12%;
+	padding: 8px 0;
+    background-color: #252525;
+    margin: 50px 10px 30px 10px;
+    border-radius: 13px;
+}
+.social ul li a{
+	color: #cc9966;
+	font-size: 14px;
+}
+.social p{
+	color: #666666;
+}
+.social i{
+	color: #cc9966;
+}

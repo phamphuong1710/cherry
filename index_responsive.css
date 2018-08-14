@@ -1,0 +1,100 @@
+@media only screen and (min-width: 1024px) {
+	body{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1024px){
+	.menu ul li{
+		padding-left: 32px;
+		padding: 10px 12px;
+	}
+
+}
+@media screen and (max-width: 768px){
+	.name b{
+		font-size: 16px;
+	}
+	.menu ul li{
+		padding-left: 10px;
+	}
+	.menu ul li a{
+		font-size: 12px;
+	}
+	#menu {
+		padding-top: 48px;
+		display: none;
+		height: auto;
+	}
+	#icon{
+		display: block;
+		float: right;
+		position: relative;
+		color: #fff;
+	}
+	#icon:after{
+		content:"";
+        
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+	}
+	.title span{
+		font-size: 38px;
+	}
+
+	/*content*/
+	.list{
+		height: auto;
+	}
+	.item img{
+		width: 80%;
+	}
+	.list .col-md-3{
+		width: 45%;
+		float: left;
+	}
+
+}
+@media screen and (max-width: 680px){
+	.menu ul li{
+		padding-left: 12px;
+	}
+	.menu ul li a{
+		font-size: 11px;
+	}
+
+}
+@media screen and (max-width: 480px){
+	body{
+		width: 100%;
+	}
+	.name {
+		padding-top: 5px;
+	}
+	.menu ul li{
+		width: 30%;
+		padding-left: 0;
+	}
+	.title .col-xs-2{
+		width: 26%;
+	}
+	.col-xs-offset-5 {
+	    margin-left: 32%;
+	}
+}
+@media screen and (max-width: 320px){
+	body{
+		width: 100%
+	}
+	.title .col-xs-2 {
+	    width: 37%;
+	}
+	.col-xs-offset-5 {
+	    margin-left: 25.666667%;
+	}
+}
+
+
